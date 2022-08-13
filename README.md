@@ -1,4 +1,4 @@
-# get-python-version
+# get-latest-python-version
 
 This action helps get the most recent released Python versions.
 
@@ -23,7 +23,7 @@ steps:
 - uses: actions/checkout@v3
 
 - id: get-python-version
-  uses: MDAnalysis/get-python-version
+  uses: MDAnalysis/get-latest-python-version
   with:
     last-n-minor-release: 1
 
