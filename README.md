@@ -23,7 +23,7 @@ steps:
 - uses: actions/checkout@v3
 
 - id: get-python-version
-  uses: MDAnalysis/get-latest-python-version
+  uses: MDAnalysis/get-latest-python-version@main
   with:
     last-n-minor-release: 1
 
