@@ -36,6 +36,6 @@ jobs:
     - name: Check version
       shell: bash
       run: |
-        [[ "${{ steps.get-last-python.outputs.python-version }}" == "3.10" ]] || exit 1
-        [[ "${{ steps.get-last-1-python.outputs.python-version }}" == "3.9" ]] || exit 1
-        [[ "${{ steps.get-last-2-python.outputs.python-version }}" == "3.8" ]] || exit 1
+        [[ "${{ steps.get-last-python.outputs.python-version }}" == "3.11" ]] || exit 1
+        [[ "${{ steps.get-last-1-python.outputs.python-version }}" == "3.10" ]] || exit 1
+        [[ "${{ steps.get-last-2-python.outputs.python-version }}" == "3.9" ]] || exit 1
